@@ -46,7 +46,7 @@
       <module name="ch22-case-studies" target="1.6" />
       <module name="common" target="1.6" />
       <module name="hadoop-examples" target="1.6" />
-      <module name="root" target="1.5" />
+      <module name="root" target="1.8" />
       <module name="snippet" target="1.6" />
     </bytecodeTargetLevel>
   </component>
