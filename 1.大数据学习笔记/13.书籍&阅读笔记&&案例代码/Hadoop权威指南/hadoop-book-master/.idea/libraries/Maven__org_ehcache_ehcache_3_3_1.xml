@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Maven: org.ehcache:ehcache:3.3.1">
+    <CLASSES>
+<<<<<<< HEAD:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_objenesis_objenesis_1_2.xml
+      <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/1.2/objenesis-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/1.2/objenesis-1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/objenesis/objenesis/1.2/objenesis-1.2-sources.jar!/" />
+=======
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/ehcache/ehcache/3.3.1/ehcache-3.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/ehcache/ehcache/3.3.1/ehcache-3.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/ehcache/ehcache/3.3.1/ehcache-3.3.1-sources.jar!/" />
+>>>>>>> 8799cc8d68b1c60096b2d7f416ad3edf48773272:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_ehcache_ehcache_3_3_1.xml
+    </SOURCES>
+  </library>
+</component>

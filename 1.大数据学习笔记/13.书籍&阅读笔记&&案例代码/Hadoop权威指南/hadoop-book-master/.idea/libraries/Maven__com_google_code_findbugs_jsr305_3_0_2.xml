@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Maven: com.google.code.findbugs:jsr305:3.0.2">
+    <CLASSES>
+<<<<<<< HEAD:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__com_esotericsoftware_minlog_minlog_1_2.xml
+      <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2-sources.jar!/" />
+=======
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar!/" />
+>>>>>>> 8799cc8d68b1c60096b2d7f416ad3edf48773272:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml
+    </SOURCES>
+  </library>
+</component>

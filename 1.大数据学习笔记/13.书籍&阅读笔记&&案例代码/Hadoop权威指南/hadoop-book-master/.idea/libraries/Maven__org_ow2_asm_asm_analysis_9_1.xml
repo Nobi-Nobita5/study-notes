@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Maven: org.ow2.asm:asm-analysis:9.1">
+    <CLASSES>
+<<<<<<< HEAD:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_tachyonproject_tachyon_0_5_0.xml
+      <root url="jar://$MAVEN_REPOSITORY$/org/tachyonproject/tachyon/0.5.0/tachyon-0.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/tachyonproject/tachyon/0.5.0/tachyon-0.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/tachyonproject/tachyon/0.5.0/tachyon-0.5.0-sources.jar!/" />
+=======
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/ow2/asm/asm-analysis/9.1/asm-analysis-9.1-sources.jar!/" />
+>>>>>>> 8799cc8d68b1c60096b2d7f416ad3edf48773272:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_ow2_asm_asm_analysis_9_1.xml
+    </SOURCES>
+  </library>
+</component>

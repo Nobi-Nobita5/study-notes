@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.hadoop:hadoop-auth:3.3.3">
+    <CLASSES>
+<<<<<<< HEAD:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_apache_hadoop_hadoop_core_1_0_4.xml
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.0.4/hadoop-core-1.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.0.4/hadoop-core-1.0.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/1.0.4/hadoop-core-1.0.4-sources.jar!/" />
+=======
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/hadoop/hadoop-auth/3.3.3/hadoop-auth-3.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/hadoop/hadoop-auth/3.3.3/hadoop-auth-3.3.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/hadoop/hadoop-auth/3.3.3/hadoop-auth-3.3.3-sources.jar!/" />
+>>>>>>> 8799cc8d68b1c60096b2d7f416ad3edf48773272:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_3_3_3.xml
+    </SOURCES>
+  </library>
+</component>

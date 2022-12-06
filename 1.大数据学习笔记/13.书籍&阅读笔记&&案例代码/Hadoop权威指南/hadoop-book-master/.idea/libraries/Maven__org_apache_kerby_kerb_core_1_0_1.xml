@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.kerby:kerb-core:1.0.1">
+    <CLASSES>
+<<<<<<< HEAD:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_spark_project_pyrolite_2_0_1.xml
+      <root url="jar://$MAVEN_REPOSITORY$/org/spark-project/pyrolite/2.0.1/pyrolite-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/spark-project/pyrolite/2.0.1/pyrolite-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/spark-project/pyrolite/2.0.1/pyrolite-2.0.1-sources.jar!/" />
+=======
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/kerby/kerb-core/1.0.1/kerb-core-1.0.1-sources.jar!/" />
+>>>>>>> 8799cc8d68b1c60096b2d7f416ad3edf48773272:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_apache_kerby_kerb_core_1_0_1.xml
+    </SOURCES>
+  </library>
+</component>

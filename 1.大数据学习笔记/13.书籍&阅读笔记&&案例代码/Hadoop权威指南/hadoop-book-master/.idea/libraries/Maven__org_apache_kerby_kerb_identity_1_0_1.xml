@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.kerby:kerb-identity:1.0.1">
+    <CLASSES>
+<<<<<<< HEAD:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_json4s_json4s_ast_2_10_3_2_10.xml
+      <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ast_2.10/3.2.10/json4s-ast_2.10-3.2.10.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ast_2.10/3.2.10/json4s-ast_2.10-3.2.10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/json4s/json4s-ast_2.10/3.2.10/json4s-ast_2.10-3.2.10-sources.jar!/" />
+=======
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/kerby/kerb-identity/1.0.1/kerb-identity-1.0.1-sources.jar!/" />
+>>>>>>> 8799cc8d68b1c60096b2d7f416ad3edf48773272:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_apache_kerby_kerb_identity_1_0_1.xml
+    </SOURCES>
+  </library>
+</component>

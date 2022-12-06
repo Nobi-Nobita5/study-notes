@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Maven: com.fasterxml.woodstox:woodstox-core:5.3.0">
+    <CLASSES>
+<<<<<<< HEAD:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__com_codahale_metrics_metrics_core_3_0_0.xml
+      <root url="jar://$MAVEN_REPOSITORY$/com/codahale/metrics/metrics-core/3.0.0/metrics-core-3.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/codahale/metrics/metrics-core/3.0.0/metrics-core-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/codahale/metrics/metrics-core/3.0.0/metrics-core-3.0.0-sources.jar!/" />
+=======
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/com/fasterxml/woodstox/woodstox-core/5.3.0/woodstox-core-5.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/com/fasterxml/woodstox/woodstox-core/5.3.0/woodstox-core-5.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/com/fasterxml/woodstox/woodstox-core/5.3.0/woodstox-core-5.3.0-sources.jar!/" />
+>>>>>>> 8799cc8d68b1c60096b2d7f416ad3edf48773272:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_3_0.xml
+    </SOURCES>
+  </library>
+</component>

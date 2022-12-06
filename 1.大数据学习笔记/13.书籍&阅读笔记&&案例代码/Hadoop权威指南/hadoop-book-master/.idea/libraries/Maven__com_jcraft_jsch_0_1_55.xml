@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Maven: com.jcraft:jsch:0.1.55">
+    <CLASSES>
+<<<<<<< HEAD:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__com_twitter_chill_java_0_3_6.xml
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/chill-java/0.3.6/chill-java-0.3.6.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/chill-java/0.3.6/chill-java-0.3.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/twitter/chill-java/0.3.6/chill-java-0.3.6-sources.jar!/" />
+=======
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/com/jcraft/jsch/0.1.55/jsch-0.1.55.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/com/jcraft/jsch/0.1.55/jsch-0.1.55-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/com/jcraft/jsch/0.1.55/jsch-0.1.55-sources.jar!/" />
+>>>>>>> 8799cc8d68b1c60096b2d7f416ad3edf48773272:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__com_jcraft_jsch_0_1_55.xml
+    </SOURCES>
+  </library>
+</component>

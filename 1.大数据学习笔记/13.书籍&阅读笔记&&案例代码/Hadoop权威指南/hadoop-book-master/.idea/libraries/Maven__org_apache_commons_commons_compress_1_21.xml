@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.commons:commons-compress:1.21">
+    <CLASSES>
+<<<<<<< HEAD:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_4_0.xml
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-recipes/2.4.0/curator-recipes-2.4.0-sources.jar!/" />
+=======
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21-sources.jar!/" />
+>>>>>>> 8799cc8d68b1c60096b2d7f416ad3edf48773272:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml
+    </SOURCES>
+  </library>
+</component>

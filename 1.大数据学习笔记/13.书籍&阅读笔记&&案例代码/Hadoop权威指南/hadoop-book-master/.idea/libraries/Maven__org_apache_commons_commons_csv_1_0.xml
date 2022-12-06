@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.commons:commons-csv:1.0">
+    <CLASSES>
+<<<<<<< HEAD:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_apache_mesos_mesos_shaded_protobuf_0_18_1.xml
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/mesos/mesos/0.18.1/mesos-0.18.1-shaded-protobuf.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/mesos/mesos/0.18.1/mesos-0.18.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/mesos/mesos/0.18.1/mesos-0.18.1-sources.jar!/" />
+=======
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/commons/commons-csv/1.0/commons-csv-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/commons/commons-csv/1.0/commons-csv-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Code/apache-maven-3.8.3/repository/org/apache/commons/commons-csv/1.0/commons-csv-1.0-sources.jar!/" />
+>>>>>>> 8799cc8d68b1c60096b2d7f416ad3edf48773272:1.大数据学习笔记/13.书籍&阅读笔记&&案例代码/Hadoop权威指南/hadoop-book-master/.idea/libraries/Maven__org_apache_commons_commons_csv_1_0.xml
+    </SOURCES>
+  </library>
+</component>
