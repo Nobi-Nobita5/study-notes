@@ -8,7 +8,7 @@
 
    webServer==>Agent==>HDFS
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/bf96abd667ed4fa4b7d87bb26989908c.png)
+![在这里插入图片描述](https://springboot-vue-blog.oss-cn-hangzhou.aliyuncs.com/img-for-typora/Flume%E7%BB%84%E6%88%90%E6%9E%B6%E6%9E%84.png)
 
 * Agent
 
