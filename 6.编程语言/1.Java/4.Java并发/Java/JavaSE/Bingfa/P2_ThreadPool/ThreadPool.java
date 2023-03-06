@@ -1,4 +1,4 @@
-package Java.JavaSE.Bingfa.P2_ThreadPool;
+package JavaSE.Bingfa.P2_ThreadPool;
 
 import java.util.concurrent.*;
 

@@ -1,4 +1,4 @@
-package Java.JavaSE.JichengDuotai;
+package JavaSE.JichengDuotai;
 
 import java.util.ArrayList;
 

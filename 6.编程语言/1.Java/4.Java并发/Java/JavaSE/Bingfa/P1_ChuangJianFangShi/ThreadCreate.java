@@ -1,4 +1,4 @@
-package Java.JavaSE.Bingfa.P1_ChuangJianFangShi;
+package JavaSE.Bingfa.P1_ChuangJianFangShi;
 
 import java.util.concurrent.Callable;
 

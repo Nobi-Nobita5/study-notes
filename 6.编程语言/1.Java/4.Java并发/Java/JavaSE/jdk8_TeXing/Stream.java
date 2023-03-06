@@ -1,4 +1,4 @@
-package Java.JavaSE.jdk8_TeXing;
+package JavaSE.jdk8_TeXing;
 
 import org.junit.Test;
 

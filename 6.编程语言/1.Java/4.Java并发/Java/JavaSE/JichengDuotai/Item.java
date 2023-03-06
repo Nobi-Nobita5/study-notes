@@ -1,4 +1,4 @@
-package Java.JavaSE.JichengDuotai;
+package JavaSE.JichengDuotai;
 
 public class Item {
     private String title;//标题

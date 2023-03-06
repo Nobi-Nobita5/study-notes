@@ -1,4 +1,4 @@
-package Java.JavaSE.IO;
+package JavaSE.IO;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
