@@ -2,7 +2,8 @@ package JavaSE.Bingfa.P2_ThreadPool;
 
 import java.util.concurrent.*;
 
-public class ThreadPool
+//使用ThreadPoolExecutor创建自定义线程池
+public class Test1_ThreadPool
 {
     private static int POOL_NUM = 10;
 
@@ -32,7 +33,7 @@ class RunnableThread implements Runnable
     {
         for(int i = 0; i<THREAD_NUM; i++)
         {
-            System.out.println("线程" + Thread.currentThread() + " " + i);
+            System.out.println("线程" + Thread.currentThread().getName() + " " + i);
         }
     }
 }
