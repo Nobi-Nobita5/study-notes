@@ -1,4 +1,4 @@
-package JavaSE.SheJiMoShi.Single;
+package JavaSE.设计模式.Single;
 /*
 线程安全的单例
     饿汉式：直接创建实例对象

@@ -1,4 +1,4 @@
-package JavaSE.SheJiMoShi.Single;
+package JavaSE.设计模式.Single;
 /*
 枚举类型
 表示该类型的对象是有限的几个

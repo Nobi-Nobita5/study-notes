@@ -1,4 +1,4 @@
-package JavaSE.Bingfa;
+package JavaSE.并发;
 
 public class SleepAndWait {
     public static void main(String[] args){

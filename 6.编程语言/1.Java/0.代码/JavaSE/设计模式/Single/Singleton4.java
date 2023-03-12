@@ -1,4 +1,4 @@
-package JavaSE.SheJiMoShi.Single;
+package JavaSE.设计模式.Single;
 /*
 懒汉式，延迟创建对象
 也叫：双重检验锁方式实现单例模式

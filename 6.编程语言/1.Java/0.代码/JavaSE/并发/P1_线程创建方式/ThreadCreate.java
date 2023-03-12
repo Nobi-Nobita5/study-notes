@@ -1,4 +1,4 @@
-package JavaSE.Bingfa.P1_ChuangJianFangShi;
+package JavaSE.并发.P1_线程创建方式;
 
 import java.util.concurrent.Callable;
 

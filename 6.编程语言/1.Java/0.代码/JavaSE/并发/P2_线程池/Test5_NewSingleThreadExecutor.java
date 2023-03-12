@@ -1,4 +1,4 @@
-package JavaSE.Bingfa.P2_ThreadPool;
+package JavaSE.并发.P2_线程池;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

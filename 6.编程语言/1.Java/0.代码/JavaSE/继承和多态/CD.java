@@ -1,4 +1,4 @@
-package JavaSE.JichengDuotai;
+package JavaSE.继承和多态;
 
 public class CD extends Item{//子类CD继承父类ltem
     private String artist;//艺术家

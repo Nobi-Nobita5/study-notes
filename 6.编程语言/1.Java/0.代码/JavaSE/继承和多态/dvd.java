@@ -1,4 +1,4 @@
-package JavaSE.JichengDuotai;
+package JavaSE.继承和多态;
 
 public class dvd extends Item {//子类DVD继承父类ltem
     private String director;//导演

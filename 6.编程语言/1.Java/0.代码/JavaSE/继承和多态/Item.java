@@ -1,4 +1,4 @@
-package JavaSE.JichengDuotai;
+package JavaSE.继承和多态;
 
 public class Item {
     private String title;//标题
