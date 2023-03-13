@@ -13,4 +13,4 @@
    >
    > ![image-20230310095452020](http://springboot-vue-blog.oss-cn-hangzhou.aliyuncs.com/img-for-typora/image-20230310095452020.png?OSSAccessKeyId=LTAI5tCou6b1axdozAZhA4qP&Expires=9000000001&Signature=EIzkebxDyzDWkXgod00Fez1EDfs=)
    
-1. 如java.util.concurrent.atomic中的AtomicInteger类的实现，就是用了CAS无锁编程的思想。
+1. 如java.util.concurrent.atomic中的AtomicInteger**原子类**的实现，就是用了CAS无锁编程的思想。
