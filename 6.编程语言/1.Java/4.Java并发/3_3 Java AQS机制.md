@@ -15,7 +15,7 @@ AQS ( Abstract Queued Synchronizer ）是一个抽象的队列同步器，通过
 >
 > 2. 共享锁是指多个线程可以同时获得锁，并行访问共享资源。在AQS中，使用共享模式实现共享锁，通过实现tryAcquireShared和tryReleaseShared方法来控制共享锁的获取和释放。
 >
->    共享锁支持多个线程同时访问共享资源，但是并不是所有线程都可以同时获取锁。获取不到锁的线程依然会进入等待队列中等待被唤醒。
+>    共享锁支持多个线程同时访问共享资源，但是**并不是所有线程都可以同时获取锁。获取不到锁的线程依然会进入等待队列中等待被唤醒。**
 >
 > 如在ReentrantReadWriteLock中读锁使用共享模式，写锁使用独占模式。
 >
@@ -53,17 +53,10 @@ AQS 在 ReentrantLock、ReentrantReadWriteLock、Semaphore、CountDownLatch、Th
 
 #### 三、源码分析
 
-1. tryAquire：
+> * AbstractQueuedSynchronizer类中的private volatile int **state变量**，就是关键的**共享标记位**；
+> * AbstractQueuedSynchronizer类中的Node内部类用来封装当前线程，Node中还有一些枚举变量用来标识当前线程的状态，如waitStatus等。
 
-   * 需要实现AQS时，进行重写。
-
-   * 这种开放式的设计，可以支持上层类的多样化实现：
-
-     **1）比如可以重写tryAquire，使得线程没有获取到锁，直接拿到返回值，去执行后面的逻辑。**
-
-     **2）重写tryAquire，实现公平锁，非公平锁的逻辑。ReentrantLock就是这样做的（详情见NonfairSync、FairSync两个内部类）。**
-
-2. aquire：
+1. aquire：
 
    ~~~java
    public final void acquire(int arg) {
@@ -107,8 +100,34 @@ AQS 在 ReentrantLock、ReentrantReadWriteLock、Semaphore、CountDownLatch、Th
    >
    > 所以要返回中断状态，在线程执行完acquireQueued()方法被唤醒后，获得了锁，再执行acquire()方法中的selfInterrupt()，使用Thread.currentThread().interrupt()来中断当前线程。
 
-   3）
+2. tryAquire：
 
-   * AbstractQueuedSynchronizer类中的private volatile int **state变量**，就是关键的**共享标记位**；
+   * 需要实现AQS时，进行重写。
 
-   * AbstractQueuedSynchronizer类中的Node内部类用来封装当前线程，Node中还有一些枚举变量用来标识当前线程的状态，如waitStatus等。
+   * 这种开放式的设计，可以支持上层类的多样化实现：
+
+     **1）比如可以重写tryAquire，使得线程没有获取到锁，直接拿到返回值，去执行后面的逻辑。**
+
+     **2）重写tryAquire，实现公平锁，非公平锁的逻辑。ReentrantLock就是这样做的（详情见NonfairSync、FairSync两个内部类）。**
+
+3. release
+
+   * 用于释放锁，唤醒等待线程；
+
+4. tryRelease
+
+   * 需要子类实现AQS时，进行重写。
+   * 用于释放锁，唤醒等待线程；
+
+5. tryAcquireShared和tryReleaseShared
+
+   * 需要子类实现AQS时，进行重写。
+
+   * 用于共享锁模式的获取锁，以及释放锁、唤醒等待线程；
+
+   * 注意：tryReleaseShared唤醒线程
+
+     > * 排它锁的实现，是唤醒等待队列中头部的线程；
+     > * 共享锁的实现，是唤醒等待队列中所有正在等待获取共享锁的线程
+
+   

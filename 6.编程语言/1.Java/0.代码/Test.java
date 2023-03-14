@@ -9,7 +9,7 @@ public class Test {
         System.out.println(a);
         System.out.println(b);*/
 
-        String s = "2023-01-31";
+        /*String s = "2023-01-31";
         String regex = "^\\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$|无固定到期日";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(s);
@@ -17,7 +17,13 @@ public class Test {
             System.out.println("1");
         } else {
             System.out.println("0");
-        }
+        }*/
+
+        /**/
+        int a = -8;
+        System.out.println(~a);//7
+        int b = 8;
+        System.out.println(~b);//7
 
     }
 }
