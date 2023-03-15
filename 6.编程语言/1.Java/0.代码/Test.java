@@ -26,4 +26,5 @@ public class Test {
         System.out.println(~b);//7
 
     }
+
 }
