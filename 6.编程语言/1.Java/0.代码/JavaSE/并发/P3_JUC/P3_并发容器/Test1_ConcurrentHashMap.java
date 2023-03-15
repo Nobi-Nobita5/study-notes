@@ -1,4 +1,4 @@
-package JavaSE.并发.P3_JUC.P5_并发工具类;
+package JavaSE.并发.P3_JUC.P3_并发容器;
 
 import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
@@ -7,7 +7,7 @@ import java.util.concurrent.ConcurrentHashMap;
 * 然后，我们创建了四个线程，其中两个线程（t1和t2）用于遍历ConcurrentHashMap，另外两个线程（t3和t4）用于更新ConcurrentHashMap。
 * 可以看到，无论是遍历还是更新操作，都可以在多线程环境下安全地进行，而不会出现线程安全问题。
 * */
-public class Test3_ConcurrentHashMap {
+public class Test1_ConcurrentHashMap {
     public static void main(String[] args) {
         ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>();
         map.put("a", 1);
