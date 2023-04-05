@@ -10,7 +10,7 @@ https://blog.csdn.net/zhiboqingyun/article/details/126573407
 
 #### 一、简介
 
-ApacheKafka 是一个分布式的流处理平台。它具有以下特点：
+ApacheKafka 是一种**分布式的消息队列（Message Queue）**，也被称为分布式的流处理平台。它具有以下特点：
 
 - 支持消息的发布和订阅，类似于 RabbtMQ、ActiveMQ 等消息队列；
 - 支持数据实时处理；
