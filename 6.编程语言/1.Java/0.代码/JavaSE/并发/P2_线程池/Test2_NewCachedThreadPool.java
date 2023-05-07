@@ -14,7 +14,6 @@ import java.util.concurrent.Executors;
 总结：
     线程池为无限大，【当执行第二个任务时第一个任务已经完成，会复用执行第一个任务的线
     程，而不用每次新建线程】。【由于有的任务需要创建新线程，有的可以直接复用线程。所以可能会出现后面的任务比前面的任务先执行完成的情况】。
-    比如，任务5执行时，执行任务0的线程已经空闲，这时任务5就可以复用任务0的线程thread-1
 * */
 public class Test2_NewCachedThreadPool {
     public static void main(String[] args) {
@@ -27,11 +26,11 @@ public class Test2_NewCachedThreadPool {
                  // 匿名内部类的类体部分
                 public void run() {
                     try {
-                        Thread.sleep(1);
+                        Thread.sleep(100);
                     } catch (Exception e) {
                     }
                     System.out.println(Thread.currentThread().getName() +
-                            ",i==" + temp);
+                            ",任务编号i==" + temp);
                 }
             });
         }
