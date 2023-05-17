@@ -23,6 +23,7 @@ public class Test1_ThreadPool
             RunnableThread thread = new RunnableThread();
             executorService.execute(thread);
         }
+        executorService.shutdown();
     }
 }
 
