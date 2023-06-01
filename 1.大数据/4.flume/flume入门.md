@@ -1,3 +1,5 @@
+常用参数配置：https://blog.csdn.net/Realoyou/article/details/81514128
+
 一、**Flume定义**
 
 1. Flume是Cloudera提供的一个高可用的，高可靠的，[分布式](https://so.csdn.net/so/search?q=分布式&spm=1001.2101.3001.7020)的海量日志采集、聚合和传输的系统。Flume基于流式架构，灵活简单。
