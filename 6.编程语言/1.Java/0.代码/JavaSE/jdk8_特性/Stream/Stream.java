@@ -1,4 +1,4 @@
-package JavaSE.jdk8_特性;
+package JavaSE.jdk8_特性.Stream;
 
 import org.junit.Test;
 

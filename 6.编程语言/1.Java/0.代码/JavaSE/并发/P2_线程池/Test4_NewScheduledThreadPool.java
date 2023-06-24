@@ -15,7 +15,7 @@ public class Test4_NewScheduledThreadPool {
         for (int i = 0; i < 5; i++) {
             int temp = i;
             newScheduledThreadPool.schedule(
-                    //需要使用函数式接口（只有一个抽象方法的接口）时，就可以使用lambda表达式来代替匿名内部类的写法。
+                    //需要使用函数式接口（只有一个抽象方法的接口）时，可以使用lambda表达式来代替匿名内部类的写法。
                     () -> System.out.println("线程" + Thread.currentThread().getName() + "任务编号i:" + temp),
                     2,
                     TimeUnit.SECONDS);//这里表示进行周期为2秒的执行。

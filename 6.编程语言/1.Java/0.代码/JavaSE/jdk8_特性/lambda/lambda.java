@@ -1,4 +1,4 @@
-package JavaSE.jdk8_特性;
+package JavaSE.jdk8_特性.lambda;
 
 import org.junit.Test;
 
