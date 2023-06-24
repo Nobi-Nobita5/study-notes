@@ -20,7 +20,7 @@ public class Test1_ThreadLocalExample {
                 }catch (Exception e){
                     e.printStackTrace();
                 }finally {
-                    // 及时清理当前线程的ThreadLocal变量
+                    // 及时清理当前线程的ThreadLocal变量，避免内存泄漏
                     threadLocal.remove();
                     threadLocal1.remove();
                 }
@@ -36,7 +36,7 @@ public class Test1_ThreadLocalExample {
                 }catch (Exception e){
                     e.printStackTrace();
                 }finally {
-                    // 清理当前线程的ThreadLocal变量
+                    // 清理当前线程的ThreadLocal变量，避免内存泄漏
                     threadLocal.remove();
                 }
             }
