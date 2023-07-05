@@ -1,5 +1,6 @@
 package JavaSE.设计模式.代理模式.动态代理.P1_JDK动态代理;
 
+//目标类
 public class UserDaoImpl implements UserDao{
     @Override
     public void save() {

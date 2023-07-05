@@ -16,7 +16,7 @@ public class InvocationHandlerImpl implements InvocationHandler {
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("调用开始处理");
-        //下面invoke()方法是以反射的方式来创建对象
+        //使用method反射调用创建对象
         //第一个参数是要创建的对象，第二个是构成方法的参数，由第二个参数来决定创建对象使用哪个构造方法
         Object result = method.invoke(target, args);
         System.out.println("调用结束处理");
