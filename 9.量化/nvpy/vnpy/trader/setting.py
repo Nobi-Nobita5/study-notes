@@ -24,17 +24,17 @@ SETTINGS: dict = {
     "email.sender": "",
     "email.receiver": "",
 
-    "datafeed.name": "",
-    "datafeed.username": "",
-    "datafeed.password": "",
+    "datafeed.name": "bybitdatafeed",
+    "datafeed.username": "xQYr9pASCGjR1neoui",
+    "datafeed.password": "s71V6a4uFRY9oDIjCiP9H6IXVMnMf5HOldOZ",
 
     "database.timezone": get_localzone_name(),
-    "database.name": "sqlite",
-    "database.database": "database.db",
-    "database.host": "",
-    "database.port": 0,
-    "database.user": "",
-    "database.password": ""
+    "database.name": "mysql",
+    "database.database": "quant",
+    "database.host": "127.0.0.1",
+    "database.port": 3306,
+    "database.user": "root",
+    "database.password": "root"
 }
 
 

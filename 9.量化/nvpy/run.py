@@ -12,6 +12,9 @@ from vnpy_ctastrategy import CtaStrategyApp
 from vnpy_ctabacktester import CtaBacktesterApp
 from vnpy_bybit import BybitGateway  # ✅ 新增
 
+
+
+
 def main():
     """Start VeighNa Trader"""
     qapp = create_qapp()
