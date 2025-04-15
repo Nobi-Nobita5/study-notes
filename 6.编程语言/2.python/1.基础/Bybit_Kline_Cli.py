@@ -2,7 +2,14 @@
 """
 命令行工具：从 Bybit HTTP API 拉取分钟级 K 线数据，并发下载，保存为 CSV。
 使用方法示例：
-    python fetch_bybit_kline.py --symbol BTCUSDT --start "2025-04-14 00:00:00" --end "2025-04-14 23:59:00" --interval 1 --output btcusdt_20250414.csv
+python Bybit_Kline_Cli.py \
+  --symbol BTCUSDT \
+  --start "2025-04-14 11:00:00" \
+  --end "2025-04-14 20:59:00" \
+  --interval 1 \
+  --category linear \
+  --output btcusdt_20250414.csv
+
 """
 
 import csv
