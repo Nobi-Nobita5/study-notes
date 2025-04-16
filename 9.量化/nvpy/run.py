@@ -1,6 +1,6 @@
 # 1、constant.py中添加BYBIT枚举
 # 2、bybit_gateway.py中account_type = "UNIFIED"
-
+# 3、bybit_gateway再加上两处新代码，移除冗余参数、添加category参数
 # 写在顶部
 from vnpy_chartwizard import ChartWizardApp
 from vnpy.event import EventEngine
