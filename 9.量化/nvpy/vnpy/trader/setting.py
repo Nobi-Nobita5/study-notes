@@ -25,8 +25,8 @@ SETTINGS: dict = {
     "email.receiver": "",
 
     "datafeed.name": "bybitdatafeed",
-    "datafeed.username": "xQYr9pASCGjR1neoui",
-    "datafeed.password": "s71V6a4uFRY9oDIjCiP9H6IXVMnMf5HOldOZ",
+    "datafeed.username": "",
+    "datafeed.password": "",
 
     "database.timezone": get_localzone_name(),
     "database.name": "mysql",
