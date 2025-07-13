@@ -1,3 +1,4 @@
-def make_incrementor(n):
-    return lambda x: x + n
-print(make_incrementor(42))
+from tree import Tree
+
+tree = Tree()
+tree.print_tree('/usr/local/Project/Algorithm')

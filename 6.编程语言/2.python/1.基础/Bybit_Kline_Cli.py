@@ -49,7 +49,8 @@ def fetch_chunk(symbol, interval, category, start_ms, end_ms, limit):
             "end": end_ms,
             "limit": limit
         }
-        #params是关键字参数，必须params=params这样传递
+        #def get(url, params=None, **kwargs):
+        #params、**kwargs都是关键字参数，必须params=params这样传递
         resp = requests.get(API_URL, params=params)
         resp.raise_for_status()
         data = resp.json()

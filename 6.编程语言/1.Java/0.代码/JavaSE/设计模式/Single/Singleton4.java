@@ -6,7 +6,7 @@ package JavaSE.设计模式.Single;
 public class Singleton4 {
     //为什么使用 volatile 关键字修饰
     /*
-    * 原因一：
+    * 原因一：有序性
     * INSTANCE = new Singleton4()，这段代码其实是分为三步执行：
     * 1. 为 INSTANCE 分配内存空间
     * 2. 初始化 INSTANCE
@@ -14,7 +14,7 @@ public class Singleton4 {
     * 例如：线程T1执行了1和3，此时T2线程调用 getInstance() 后发现 INSTANCE 不为空，因此直接通过最后一行代码返回 INSTANCE，但是此时的 INSTANCE 还没有被初始化
     *      所以通过使用 volatile 禁止 JVM 的指令重排，保证在多线程环境下也能正常运行。
     *
-    * 原因二：
+    * 原因二：可见性
     * 在当前的Java 内存模型（JMM）中，线程可以把变量保存本地内存（比如机器的寄存器）中，而不是直接在主存中进行读写。
     * 这就可能造成一个线程在主存中修改了一个变量的值，而另外一个线程还继续使用它在寄存器中的变量值的拷贝，
     * 而volatile关键字就可以保证修改的值会立即被更新到主内存中，当有其他线程需要读取时，它会去主内存中读取新值。
